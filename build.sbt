@@ -2,7 +2,7 @@ name := "lms-tutorials"
 
 organization := "org.scala-lang.lms"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.8"
 
 scalaOrganization := "org.scala-lang.virtualized"
 
