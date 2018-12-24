@@ -16,7 +16,7 @@ evaluation and supercompilation literature.
 - http://dblp.uni-trier.de/db/ journals/jfp/SorensenGJ96
 -->
 
-We consider ``multi-threaded'' regular expression matchers, that spawn a new
+We consider "multi-threaded" regular expression matchers, that spawn a new
 conceptual thread to process alternatives in parallel. Of course these matchers
 do not actually spawn OS-level threads, but rather need to be advanced manually
 by client code. Thus, they are similar to coroutines.
@@ -261,4 +261,10 @@ tight imperative state machines.
 Here is the generated code for `.*AAB`, shown initially:
 
       .. includecode:: ../../../../out/dfa_aab.check.scala
+
+What's next?
+------------
+
+Go back to the [tutorial index](index.html) or continue with the [SQL Query Compiler](query.html).
+
 */
